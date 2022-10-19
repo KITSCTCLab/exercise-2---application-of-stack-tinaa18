@@ -107,6 +107,7 @@ class Evaluate:
           stack.pop()
     return int(stack[-1])
 
+
 # Do not change the following code
 postfix_expression = input()  # Read postfix expression
 tokens = postfix_expression.split()
@@ -115,4 +116,3 @@ if evaluate.validate_postfix_expression(tokens):
     print(evaluate.evaluate_postfix_expression(tokens))
 else:
     print('Invalid postfix expression')
-Footer
